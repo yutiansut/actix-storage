@@ -33,7 +33,7 @@ tokio-util = {version = "0.7", features = [
 ], optional = true}
 
 [dev-dependencies]
-actix-storage = {version = "0.3.0",path = "../actix-storage", features = ["all", "tests"]}
+actix-storage = {version = "0.3.0",file = "../actix-storage", features = ["all", "tests"]}
 actix-web = "4.0.0"
 rand = "0.8"
 serde = "1"
